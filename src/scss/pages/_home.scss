@@ -1,0 +1,107 @@
+.container-fluid {
+    padding: 0 0;
+}
+
+.row {
+    margin: 0 0;
+}
+
+.col-12 {
+    padding: 0 0;
+}
+
+.section-services {
+    background-image: url('/src/img/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+}
+
+.service-box {
+    position: relative;
+    height: 35rem;
+    transition: all .2s;
+
+    .service-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+
+        &:hover {
+            opacity: .3;
+        }
+    }
+
+    .title {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $color-white;
+        font-size: 2rem;
+    }
+
+    &:hover {
+        background-color: $color-primary;
+        cursor: pointer;
+    }
+}
+
+.section-albums {
+    background-image: url('/src/img/bg2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-thoughts {
+    background-image: url('/src/img/bg3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.thought-box {
+    background-color: $color-info-box;
+}
+
+.section-sophia {
+    background-image: url('/src/img/bg4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-shop {
+    background-image: url('/src/img/bg5.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-contact {
+    background-image: url('/src/img/bg6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 12rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding-bottom: 0;
+    }
+}
+
+.contact a {
+    transition: all .2s;
+    
+    &:hover {
+        text-decoration: none;
+        color: $color-link-hover;
+    }
+}
+
+

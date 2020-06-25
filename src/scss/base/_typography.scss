@@ -1,0 +1,78 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: $color-black;
+}
+
+.heading-primary {
+    color: $color-primary;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 6rem;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 3.5rem;
+    }
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    color: $color-primary;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &--small {
+        font-size: 1.5rem;
+    }
+
+    &--small-white {
+        font-size: 1rem;
+        color: $color-white;
+        font-weight: 400;
+    }
+
+    &--price {
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+}
+
+.paragraph {
+    font-size: 2.6rem;
+    font-family: 'Frank Ruhl Libre', serif;
+    color: $color-black;
+    letter-spacing: 1px;
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 1.8rem;
+    }
+
+    &--small {
+        font-size: 2rem;
+    }
+
+    &--footer {
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.3rem;
+        }
+    }
+
+    &--white {
+        color: $color-white;
+    }
+
+    &--small-white {
+        font-size: 2rem;
+        color: $color-white;
+    }
+
+    &--info {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: $color-info;
+    }
+}
+
+.heading {
+    color: $color-white;
+}

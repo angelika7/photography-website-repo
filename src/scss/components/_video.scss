@@ -1,0 +1,11 @@
+.sophia-video {
+    height: 53rem;
+
+    &__content {
+        object-fit: cover;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        margin-top: 5rem;
+    }
+}

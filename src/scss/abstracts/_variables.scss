@@ -1,0 +1,25 @@
+// COLORS
+$color-primary: #f5989d;
+$color-border-bottom: #f8b7bb;
+$color-primary-hover: #e88282;
+$color-link-hover: #f9c3c6;
+$color-white: #fff;
+$color-black: #000;
+$color-header: #252525;
+$color-border-bottom-2: #333333;
+$color-info: #666666;
+$color-info-box: #f2f2f2;
+$color-section: #fafafa;
+$color-border: #3b3b3b;
+
+//BACKGROUND COLOR
+
+.bg-primary {background-color: $color-primary !important;}
+.bg-secondary {background-color: $color-black !important;}
+
+// FONT
+$default-font-size: 1.6rem;
+
+// FONT AWESOME
+
+$fa-font-path:                "/dist/img/webfonts";

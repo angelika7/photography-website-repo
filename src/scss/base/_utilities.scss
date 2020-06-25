@@ -1,0 +1,32 @@
+// PADINGS
+
+// Padding bottom
+
+.padding-medium-bottom {padding-bottom: 3rem !important;}
+.padding-medium-bottom-2 {padding-bottom: 4rem;}
+
+
+.padding-bottom-big {padding-bottom: 12rem !important;}
+
+// Padding top
+
+.padding-medium-top {padding-top: 4rem;}
+
+//////////////////
+
+.padding-top-bottom-big {padding: 10rem 0;}
+.padding-top-bottom-medium {padding: 4.5rem 0;}
+
+//////////////////
+
+.padding-medium {padding: 4.5rem;}
+
+// BORDER
+
+.border-bottom {
+    border-bottom: 1px solid $color-border-bottom !important;
+    
+    &--footer {
+        border-bottom: 1px solid $color-border-bottom-2 !important;
+    }
+}

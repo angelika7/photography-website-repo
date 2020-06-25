@@ -1,0 +1,24 @@
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/album";
+@import "components/arrow";
+@import "components/button";
+@import "components/contact";
+@import "components/shop";
+@import "components/video";
+
+@import "vendor/custom"; 
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";
+
+@import "pages/home"; 
+
+@import "fontawesome/brands.scss";
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";

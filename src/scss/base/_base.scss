@@ -1,0 +1,25 @@
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+// Break points 
+
+$bp-medium-extra: 54.125em;   // max 866px
+$bp-medium: 48em;   // max 768px
+$bp-small-extra: 43.75em;   // max 700px
+$bp-small: 38.4em;   // min 576px
+$bp-smallest: 26.625; //max 426px
